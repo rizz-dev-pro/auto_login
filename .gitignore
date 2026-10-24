@@ -1,0 +1,22 @@
+# Credentials / local config (never commit)
+config
+*.env
+.env*
+cred.xml
+*.xml.bak
+run.vbs
+
+# State and logs
+failures
+*.log
+
+# Packaged builds
+*.zip
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
